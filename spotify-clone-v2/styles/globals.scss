@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    @apply text-white;
+  }
+  body {
+    @apply bg-neutral-900 overflow-x-hidden;
+  }
+  li {
+    @apply cursor-pointer;
+  }
+  img {
+    @apply overflow-hidden;
+  }
+}
